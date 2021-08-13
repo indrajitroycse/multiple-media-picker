@@ -9,8 +9,8 @@ import ohos.aafwk.ability.AbilityPackage;
  */
 
 public class MyApplication extends AbilityPackage {
-    @Override
+  @Override
     public void onInitialize() {
-        super.onInitialize();
-    }
+    super.onInitialize();
+  }
 }
