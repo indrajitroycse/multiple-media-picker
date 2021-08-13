@@ -28,6 +28,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/entry/src/ohosTest/java/com/erikagutierrez/multiplemediapicker/ExampleOhosTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/entry/src/test/java/com/erikagutierrez/multiplemediapicker/ExampleTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/multiplemediapicker/src/main/java/com/erikagutierrez/multiplemediapicker/adapter/BucketAdapter.java">
           <value>
             <set />

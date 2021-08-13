@@ -5,7 +5,6 @@ import com.erikagutierrez.multiplemediapicker.ResourceTable;
 import ohos.agp.components.*;
 import ohos.agp.render.layoutboost.LayoutBoost;
 import ohos.app.Context;
-
 import java.util.ArrayList;
 import java.util.List;
 

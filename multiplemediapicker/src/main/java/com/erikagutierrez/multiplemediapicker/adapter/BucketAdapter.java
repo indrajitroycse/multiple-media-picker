@@ -10,7 +10,6 @@ import ohos.agp.render.layoutboost.LayoutBoost;
 import ohos.app.Context;
 import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
-
 import java.util.List;
 
 public class BucketAdapter extends BaseItemProvider {
