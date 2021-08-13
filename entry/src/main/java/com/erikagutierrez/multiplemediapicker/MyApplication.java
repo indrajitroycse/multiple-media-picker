@@ -25,7 +25,7 @@ import ohos.aafwk.ability.AbilityPackage;
 public class MyApplication extends AbilityPackage {
 
   /**
-   *onInitialize in Media page
+   *onInitialize in Media page.
    */
 
   @Override

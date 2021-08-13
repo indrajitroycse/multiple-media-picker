@@ -21,13 +21,13 @@ import ohos.aafwk.ability.Ability;
 import ohos.aafwk.content.Intent;
 
 /**
- *Shows the MainAbility page of Media picker
+ *Shows the MainAbility page of Media picker.
  */
 
 public class MainAbility extends Ability {
 
   /**
-   *Start in Media page
+   *Start in Media page.
    */
 
   @Override

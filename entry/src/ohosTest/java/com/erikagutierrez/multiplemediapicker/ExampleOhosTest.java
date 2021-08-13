@@ -27,7 +27,7 @@ import static org.junit.Assert.assertEquals;
 public class ExampleOhosTest {
 
     /**
-     *Ohos Test in Media page
+     *Ohos Test in Media page.
      */
 
     @Test

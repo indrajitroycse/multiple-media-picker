@@ -26,7 +26,7 @@ import ohos.hiviewdfx.HiLogLabel;
 import ohos.security.SystemPermission;
 
 /**
- *Shows the main page of unified Media picker
+ *Shows the main page of unified Media picker.
  */
 
 public class MainAbilitySlice extends AbilitySlice {
@@ -35,7 +35,7 @@ public class MainAbilitySlice extends AbilitySlice {
   static final HiLogLabel LABEL = new HiLogLabel(HiLog.DEBUG, 0x00201, "Multiple_media_picker");
 
   /**
-   *Start Main Choose Media page
+   *Start Main Choose Media page.
    */
 
   @Override

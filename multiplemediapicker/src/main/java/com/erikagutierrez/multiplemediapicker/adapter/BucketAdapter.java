@@ -12,6 +12,12 @@ import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
 import java.util.List;
 
+/**
+ * BucketAdapter represent the media adapter.
+ *
+ * @since 2021-08-03
+ **/
+
 public class BucketAdapter extends BaseItemProvider {
     private  Context context;
      Image thumbnail;

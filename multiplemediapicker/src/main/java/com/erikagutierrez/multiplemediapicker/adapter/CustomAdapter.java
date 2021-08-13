@@ -8,6 +8,12 @@ import ohos.app.Context;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * CustomAdapter represent the media adapter.
+ *
+ * @since 2021-08-03
+ **/
+
 public class CustomAdapter extends BaseItemProvider {
     Context context;
     Image thumbnail;

@@ -25,7 +25,7 @@ import org.junit.Test;
 public class ExampleTest {
 
    /**
-    *ExampleTest in Media page
+    *ExampleTest in Media page.
     */
 
    @Test
