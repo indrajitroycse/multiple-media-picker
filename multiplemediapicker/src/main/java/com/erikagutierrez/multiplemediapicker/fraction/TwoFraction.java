@@ -72,8 +72,7 @@ public class TwoFraction extends Fraction {
             ResultSet cursor = dataAbilityHelper.query(
                     AVStorage.Video.Media.INTERNAL_DATA_ABILITY_URI,
                     getProjection(), null);
-            HiLog.info(LABEL, "getPicBuckets cursor " + cursor);
-            if (cursor == null) {
+                   if (cursor == null) {
                 return;
             }
             if (cursor.getRowCount() == 0) {
@@ -92,9 +91,7 @@ public class TwoFraction extends Fraction {
                     }
                     String album = cursor.getString(cursor.getColumnIndexForName(projection[0]));
                     String image = cursor.getString(cursor.getColumnIndexForName(projection[1]));
-                    HiLog.info(LABEL, "getPicBuckets cursor " + "album " + album);
-                    HiLog.info(LABEL, "getPicBuckets cursor " + "image " + image);
-
+                  
                     file = new File(image);
                     if (file.exists() && !albumSet.contains(album)) {
                         bucketNamestemp.add(album);
