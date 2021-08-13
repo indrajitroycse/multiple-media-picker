@@ -61,10 +61,10 @@ public class OpenGalleryAbilitySlice extends AbilitySlice {
     public void populateListContainer() {
         HiLog.info(LABEL, " bitmapList.size() :"   + bitmapList.size());
         for (int i = 0; i < selected.size(); i++) {
-            if (!imagesSelected.contains(bitmapList.get(i))) {
-                selected.set(i, false);
-            } else {
+            if (imagesSelected.contains(bitmapList.get(i))) {
                 selected.set(i, true);
+            } else {
+                selected.set(i, false);
             }
         }
         HiLog.info(LABEL, "BucketAdapter pass :"  + "bucketNames :" + bucketNames +
