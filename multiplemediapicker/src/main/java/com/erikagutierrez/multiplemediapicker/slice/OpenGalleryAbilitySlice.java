@@ -50,7 +50,7 @@ public class OpenGalleryAbilitySlice extends AbilitySlice {
         parent = intent.getStringParam("FROM");
         bucketNames = intent.getStringArrayListParam("bucketNames");
         bitmapList = intent.getStringArrayListParam("bitmapList");
-       if(bitmapList.size() > 0) {
+       if(!bitmapList.isEmpty()) {
            for (int i = 0; i < bitmapList.size(); i++) {
                selected.add(false);
            }
@@ -61,10 +61,10 @@ public class OpenGalleryAbilitySlice extends AbilitySlice {
     public void populateListContainer() {
         HiLog.info(LABEL, " bitmapList.size() :"   + bitmapList.size());
         for (int i = 0; i < selected.size(); i++) {
-            if (imagesSelected.contains(bitmapList.get(i))) {
-                selected.set(i, true);
-            } else {
+            if (!imagesSelected.contains(bitmapList.get(i))) {
                 selected.set(i, false);
+            } else {
+                selected.set(i, true);
             }
         }
         HiLog.info(LABEL, "BucketAdapter pass :"  + "bucketNames :" + bucketNames +
