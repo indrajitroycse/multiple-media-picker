@@ -13,7 +13,6 @@ import ohos.agp.components.element.ElementScatter;
 import ohos.app.Context;
 import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
-
 import java.util.ArrayList;
 import java.util.List;
 

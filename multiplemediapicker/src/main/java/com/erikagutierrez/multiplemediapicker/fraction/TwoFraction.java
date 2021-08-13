@@ -173,7 +173,7 @@ public class TwoFraction extends Fraction {
         listContainer.setItemProvider(mAdapter);
         fractionClickListner = (FractionClickListner) context;
         listContainer.setItemClickedListener((
-                ListContainer listContainer1, Component component, int pos, long l) -> {
+                ListContainer listContainer1, Component component1, int pos, long l) -> {
             getPictures();
             fractionClickListner.itemClicked("VIDEOS", bitmapList, bucketNames);
         });

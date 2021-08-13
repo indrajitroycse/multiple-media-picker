@@ -10,7 +10,6 @@ import ohos.agp.components.element.ElementScatter;
 import ohos.agp.utils.Color;
 import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,7 +80,7 @@ public class OpenGalleryAbilitySlice extends AbilitySlice {
         listContainer.setItemProvider(mAdapter);
 
         listContainer.setItemClickedListener
-                ((ListContainer listContainer, Component component, int position, long l) -> {
+                ((ListContainer container, Component component1, int position, long l) -> {
             if (!selected.get(position).equals(true)
                     && imagesSelected.size() < HomeAbilitySlice.maxSelection) {
                 imagesSelected.add(bitmapList.get(position));

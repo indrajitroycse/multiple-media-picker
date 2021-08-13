@@ -2,7 +2,6 @@ package com.erikagutierrez.multiplemediapicker;
 
 import ohos.aafwk.ability.delegation.AbilityDelegatorRegistry;
 import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 
 public class ExampleOhosTest {

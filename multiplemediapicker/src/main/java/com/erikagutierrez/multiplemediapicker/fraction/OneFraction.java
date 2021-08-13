@@ -15,7 +15,6 @@ import ohos.data.resultset.ResultSet;
 import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
 import ohos.media.photokit.metadata.AVStorage;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -178,7 +177,7 @@ public class OneFraction extends Fraction {
         listContainer.setItemProvider(mAdapter);
         fractionClickListner = (FractionClickListner) context;
         listContainer.setItemClickedListener((
-                ListContainer listContainer1, Component component, int pos, long l) -> {
+                ListContainer listContainer1, Component component1, int pos, long l) -> {
                     getPictures(bucketNames.get(pos));
                     fractionClickListner.itemClicked("IMAGES", bitmapList, bucketNames);
                 });
