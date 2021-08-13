@@ -1,7 +1,3 @@
-package com.erikagutierrez.multiplemediapicker;
-
-import org.junit.Test;
-
 /*
  * Copyright (C) 2020-21 Application Library Engineering Group
  *
@@ -18,13 +14,21 @@ import org.junit.Test;
  * limitations under the License.
  */
 
-public class ExampleTest {
-    @Test
-    public void onStart() {
-      // Do nothing .
-    }
+package com.erikagutierrez.multiplemediapicker;
 
-   @Override
+import org.junit.Test;
+
+/**
+ *Shows the Test page of Media picker
+ */
+
+public class ExampleTest {
+
+   /**
+    *ExampleTest in Media page
+    */
+
+   @Test
    public void onStart() {
      throw new UnsupportedOperationException();
     }

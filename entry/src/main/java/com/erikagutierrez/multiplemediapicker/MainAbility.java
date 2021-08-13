@@ -1,9 +1,3 @@
-package com.erikagutierrez.multiplemediapicker;
-
-import com.erikagutierrez.multiplemediapicker.slice.MainAbilitySlice;
-import ohos.aafwk.ability.Ability;
-import ohos.aafwk.content.Intent;
-
 /*
  * Copyright (C) 2020-21 Application Library Engineering Group
  *
@@ -20,7 +14,22 @@ import ohos.aafwk.content.Intent;
  * limitations under the License.
  */
 
+package com.erikagutierrez.multiplemediapicker;
+
+import com.erikagutierrez.multiplemediapicker.slice.MainAbilitySlice;
+import ohos.aafwk.ability.Ability;
+import ohos.aafwk.content.Intent;
+
+/**
+ *Shows the MainAbility page of Media picker
+ */
+
 public class MainAbility extends Ability {
+
+  /**
+   *Start in Media page
+   */
+
   @Override
     public void onStart(Intent intent) {
     super.onStart(intent);

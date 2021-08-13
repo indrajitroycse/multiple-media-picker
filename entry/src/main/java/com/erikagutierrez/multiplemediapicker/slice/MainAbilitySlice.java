@@ -1,14 +1,3 @@
-package com.erikagutierrez.multiplemediapicker.slice;
-
-import com.erikagutierrez.multiplemediapicker.ResourceTable;
-import ohos.aafwk.ability.AbilitySlice;
-import ohos.aafwk.content.Intent;
-import ohos.agp.components.Button;
-import ohos.bundle.IBundleManager;
-import ohos.hiviewdfx.HiLog;
-import ohos.hiviewdfx.HiLogLabel;
-import ohos.security.SystemPermission;
-
 /*
  * Copyright (C) 2020-21 Application Library Engineering Group
  *
@@ -25,10 +14,29 @@ import ohos.security.SystemPermission;
  * limitations under the License.
  */
 
+package com.erikagutierrez.multiplemediapicker.slice;
+
+import com.erikagutierrez.multiplemediapicker.ResourceTable;
+import ohos.aafwk.ability.AbilitySlice;
+import ohos.aafwk.content.Intent;
+import ohos.agp.components.Button;
+import ohos.bundle.IBundleManager;
+import ohos.hiviewdfx.HiLog;
+import ohos.hiviewdfx.HiLogLabel;
+import ohos.security.SystemPermission;
+
+/**
+ *Shows the main page of unified Media picker
+ */
+
 public class MainAbilitySlice extends AbilitySlice {
 
   Button button;
   static final HiLogLabel LABEL = new HiLogLabel(HiLog.DEBUG, 0x00201, "Multiple_media_picker");
+
+  /**
+   *Start Main Choose Media page
+   */
 
   @Override
     public void onStart(Intent intent) {

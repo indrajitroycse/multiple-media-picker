@@ -1,9 +1,3 @@
-package com.erikagutierrez.multiplemediapicker;
-
-import ohos.aafwk.ability.delegation.AbilityDelegatorRegistry;
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-
 /*
  * Copyright (C) 2020-21 Application Library Engineering Group
  *
@@ -20,7 +14,22 @@ import static org.junit.Assert.assertEquals;
  * limitations under the License.
  */
 
+package com.erikagutierrez.multiplemediapicker;
+
+import ohos.aafwk.ability.delegation.AbilityDelegatorRegistry;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+/**
+ *Shows the ohos Test page of Media picker
+ */
+
 public class ExampleOhosTest {
+
+    /**
+     *Ohos Test in Media page
+     */
+
     @Test
     public void testBundleName() {
         final String actualBundleName = AbilityDelegatorRegistry.getArguments().getTestBundleName();

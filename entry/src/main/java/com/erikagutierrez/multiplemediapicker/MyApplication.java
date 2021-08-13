@@ -1,7 +1,3 @@
-package com.erikagutierrez.multiplemediapicker;
-
-import ohos.aafwk.ability.AbilityPackage;
-
 /*
  * Copyright (C) 2020-21 Application Library Engineering Group
  *
@@ -18,7 +14,20 @@ import ohos.aafwk.ability.AbilityPackage;
  * limitations under the License.
  */
 
+package com.erikagutierrez.multiplemediapicker;
+
+import ohos.aafwk.ability.AbilityPackage;
+
+/**
+ *Shows the MyApplication page of Media picker
+ */
+
 public class MyApplication extends AbilityPackage {
+
+  /**
+   *onInitialize in Media page
+   */
+
   @Override
     public void onInitialize() {
     super.onInitialize();
