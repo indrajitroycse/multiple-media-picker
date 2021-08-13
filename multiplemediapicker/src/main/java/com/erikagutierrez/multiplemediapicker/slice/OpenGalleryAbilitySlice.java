@@ -21,6 +21,7 @@ import java.util.List;
 
 public class OpenGalleryAbilitySlice extends AbilitySlice {
 
+    private int maxSelection = 3;
     static final HiLogLabel LABEL =
             new HiLogLabel(HiLog.DEBUG, 0x00201, "Multiple_media_picker_open_gallery");
     private ListContainer listContainer;
@@ -82,7 +83,7 @@ public class OpenGalleryAbilitySlice extends AbilitySlice {
         listContainer.setItemClickedListener
                 ((ListContainer container, Component component1, int position, long l) -> {
             if (!selected.get(position).equals(true)
-                    && imagesSelected.size() < HomeAbilitySlice.maxSelection) {
+                    && imagesSelected.size() < maxSelection) {
                 imagesSelected.add(bitmapList.get(position));
                 selected.set(position, !selected.get(position));
                 mAdapter.notifyDataChanged();

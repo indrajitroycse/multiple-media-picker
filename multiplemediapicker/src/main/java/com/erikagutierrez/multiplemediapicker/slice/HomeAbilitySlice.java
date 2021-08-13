@@ -26,7 +26,7 @@ public class HomeAbilitySlice extends AbilitySlice implements FractionClickListn
 
     protected static int selectionTitle;
     protected static String title  = "Select media";
-    protected static int maxSelection = 3;
+    private int maxSelection = 3;
     TabList tabList;
     PageSlider pageSlider;
     Text appBarTitle;

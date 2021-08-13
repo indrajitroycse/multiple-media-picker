@@ -38,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/multiplemediapicker/src/main/java/com/erikagutierrez/multiplemediapicker/slice/HomeAbilitySlice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/multiplemediapicker/src/main/java/com/erikagutierrez/multiplemediapicker/slice/OpenGalleryAbilitySlice.java">
           <value>
             <set />
